@@ -1,0 +1,301 @@
+.BodyContainer{
+    display: -webkit-box;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: url('../img/body-bg.jpg') no-repeat center center fixed;
+    object-fit: cover;
+}
+.LeftContainer{
+    position: sticky;
+    top: 2.5%;
+    right: 0;
+    height: 100vh;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 1.25%;
+}
+
+.MainContainer{
+    margin: 1.25%;
+    height: 100%;
+    width: 65%;
+}
+
+.InnerMainContainer{
+    margin: 1.25%;
+    width: 100%;
+    height: 70vh;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+    box-shadow: inset 0em 1em rgba(red, green, blue, 0.5);
+}
+
+
+.MonsterMainContainer{
+    display: flex;
+    flex: 1 1 80px;
+    flex-basis: auto; /* default value */
+    flex-grow: 1;
+    max-width: 20%;
+    max-height: 33%;
+    min-width: 20%;
+    min-height: 20%;
+    border: thistle solid 5px;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    object-fit: cover;
+    
+}
+.anchorMonsterMain{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5em;
+    flex-grow: 1;
+}
+
+.textMonsterMain{
+    position: relative;
+    top: -50%;
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke: 1px whitesmoke;
+}
+
+.imgMonsterMain{
+    width: 100%;
+    height: 100%;
+}
+
+.ShearchTableHome{
+    padding: 20px;
+    width: 100%;
+    color: wheat;
+}
+
+.ShearchTableHome div table{
+    text-align: center;
+    width: 100%
+}
+.ShearchTableHome div table tr td{
+    margin: 20px;
+}
+
+#inputShearchHome{
+   height: 100%;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   border: none;
+}
+
+
+#buttonShearchHome{
+    background: url('../img/loupe-icon.png') ;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 5vh;
+    height: 100%;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+#inputShearchHome:focus, #buttonShearchHome:focus{
+    outline: none;
+}
+
+#TitreShearchHome{
+    color: wheat;
+    font-size: 1.5em;
+}
+
+.inputsSearch{
+   
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.slidecontainer{
+    display: inline-flex;
+}
+.slidecontainer div {
+    margin: 10px;
+}
+
+#showMonsterContainer{
+    background-color:rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.showMonsterContainerParent{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.showMonsterContainerChilds{
+    display: flex;
+    text-align: center;
+}
+
+.showMonsterContainerTitle{
+
+}
+
+.showMonsterImage{
+    width: 50%;
+    height: 20vh;
+}
+
+.showMonsterImage img {
+   height: 17vh;
+   border-radius: 10px;
+   margin: 1vh;
+   border: black 0.5vh solid;
+}
+
+.showMonsterName{
+    width: 50%;
+    height: 20vh;
+}
+
+.showMonsterName div{
+    width: 100%;
+    height: 10vh;
+    font-size: 3em;
+}
+
+.showMonsterContainerStats{
+    
+}
+
+.showMonsterType{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.showMonsterStats{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.showMonsterContainerSkills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.showMonsterSkill{
+    display: flex;
+    flex: 1 1 80px;
+    flex-basis: auto; /* default value */
+    flex-grow: 1;
+    max-width: 10%;
+    border: black solid 5px;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.popup{
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 900;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: black 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}
+
+#ShowSkillContainer{
+    background-color:rgba(255, 255, 255, 0.9);
+    display: none;
+}
+
+.showSkillContainerChilds{
+    display: flex;
+    text-align: center;
+}
+
+.showSkillImage{
+    width: 50%;
+    height: 20vh;
+}
+
+.showSkillImage img {
+    height: 17vh;
+    border-radius: 10px;
+    margin: 1vh;
+    border: black 0.5vh solid;
+}
+
+.showSkillName{
+    width: 50%;
+    height: 20vh;
+}
+
+#idSkillName{
+    width: 100%;
+    height: 10vh;
+    font-size: 3em;
+}
+
+
+
+.showSkillEffects{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.showSkillContainerEffects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.showSkillEffect{
+    display: flex;
+    flex: 1 1 80px;
+    flex-basis: auto; /* default value */
+    flex-grow: 1;
+    max-width: 10%;
+    border: black solid 5px;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    object-fit: cover;
+    cursor: pointer;
+}

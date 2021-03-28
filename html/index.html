@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Summoner war Guillian</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td id="headerConnexion" class="headerButtons">
+                    Connexion
+                </td>
+                <td>
+                    |
+                </td>
+                <td id="headerInscription" class="headerButtons">
+                    Inscription
+                </td>
+            </tr>
+        </table>
+
+    </header>
+    <div class="popup">
+        <h3 class="popupTitre">
+
+        </h3>
+        <p class="popupDescription">
+
+        </p>
+    </div>
+    <div class="BodyContainer">
+        <div class="MainContainer">
+            <!-- Recherche de monstre -->
+            <div class="InnerMainContainer" id="SearchMonsterContainer">
+
+            </div>
+            <!-- Affichage de monstre -->
+            <div class="InnerMainContainer" id="showMonsterContainer">
+                <div class="showMonsterContainerParent">
+                    <div class="showMonsterContainerTitle showMonsterContainerChilds">
+                        <div class="showMonsterImage">
+                            <img>
+                        </div>
+                        <div class="showMonsterName">
+                            <div id="idMonsterName">
+                                Name
+                            </div>
+                            <div id="idMonsterMaxed">
+                                6* awake stats
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showMonsterContainerStats showMonsterContainerChilds">
+                        <div class="showMonsterType">
+                            <table>
+                                <tr>
+                                    <td>
+                                        element
+                                    </td>
+                                    <td id="idMonsterElement">
+                                        fire
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        archetype
+                                    </td>
+                                    <td id="idMonsterArchetype">
+                                        attacker
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        can awake
+                                    </td>
+                                    <td id="idMonsterCanAwake">
+                                        yes
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="showMonsterStats">
+                            <table>
+                                <tr>
+                                    <td>
+                                        hp
+                                    </td>
+                                    <td id="idMonsterHP">
+                                        10520
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        att
+                                    </td>
+                                    <td id="idMonsterATT">
+                                        956
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        def
+                                    </td>
+                                    <td id="idMonsterDEF">
+                                        780
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        speed
+                                    </td>
+                                    <td id="idMonsterSPD">
+                                        120
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Taux crit
+                                    </td>
+                                    <td id="idMonsterTC">
+                                        15%
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        dg crit
+                                    </td>
+                                    <td id="idMonsterDC">
+                                        50%
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        resistance
+                                    </td>
+                                    <td id="idMonsterRES">
+                                        15%
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        précision
+                                    </td>
+                                    <td id="idMonsterPREC">
+                                        15%
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="showMonsterContainerSkills showMonsterContainerChilds">
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Partie Skill -->
+            <div class="InnerMainContainer" id="ShowSkillContainer">
+                <div class="showMonsterContainerParent">
+                    <div class="showSkillContainerTitle showSkillContainerChilds">
+                        <div class="showSkillImage">
+                            <img src="https://swarfarm.com/static/herders/images/skills/skill_icon_0005_8_3.png">
+                        </div>
+                        <div class="showSkillName">
+                            <div id="idSkillName">
+                                Name
+                            </div>
+                            <div id="idSkillDescription">
+                                description
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showSkillContainerEffect showSkillContainerChilds">
+                        <div class="showSkillContainerEffects">
+
+                        </div>
+                        <div class="showSkillDetail">
+                            <table>
+                                <tr>
+                                    <td>
+                                        Is an AoE :
+                                    </td>
+                                    <td id="idSkillIsAoe">
+                                        True
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Cooldown
+                                    </td>
+                                    <td id="idSkillCooldown">
+                                        3
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Slot n°
+                                    </td>
+                                    <td id="idSkillSlot">
+                                        2
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Number of hits
+                                    </td>
+                                    <td id="idSkillNbHits">
+                                        5
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Is passive :
+                                    </td>
+                                    <td id="idSkillIsPassive">
+                                        False
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="LeftContainer">
+            <div class="ShearchTableHome">
+                <div>
+                    <table>
+                        <tr>
+                            <td id="TitreShearchHome">
+                                Rechercher un monstre
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="inputsSearch">
+                                <input type="text" id="inputShearchHome">
+                                <button id="buttonShearchHome">
+
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Base stars</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="6" value="6" class="slider" id="myRange">
+                                    <div id="slideOutput">
+
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Element</td>
+                        </tr>
+                        <tr>
+                            <td> 
+                                <select name="MonsterElement" id="MonsterElement">
+                                    <option value="all">all</option>
+                                    <option value="fire">fire</option>
+                                    <option value="water">water</option>
+                                    <option value="wind">wind</option>
+                                    <option value="light">light</option>
+                                    <option value="dark">dark</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Archetype</td>
+                        </tr>
+                        <tr>
+                            <td> 
+                                <select name="Archetype" id="Archetype">
+                                    <option value="all">all</option>
+                                    <option value="attack">Attack</option>
+                                    <option value="defense">Defence</option>
+                                    <option value="hp">HP</option>
+                                    <option value="support">support</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script src="../js/home.js"></script>
+    <script src="../js/socket.io.min.js"></script>
+
+</body>
+
+</html>
